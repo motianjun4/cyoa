@@ -1,0 +1,28 @@
+#error
+cyoa-step1
+cyoa-step1 not_found.txt
+cyoa-step1 cyoa/wrong_story_name/wrong.txt
+
+#success
+cyoa-step1 mystory/page1.txt
+#error
+cyoa-step2 cyoa/broken1
+cyoa-step2 not_exist
+cyoa-step2 cyoa/self_loop < story1/input.txt
+
+
+#success
+cyoa-step2 story1 < story1/input.txt
+
+#success
+cyoa-step3 story1
+cyoa-step3 cyoa/my_cycle
+cyoa-step3 cyoa/multiple_path
+#error
+cyoa-step4 ./cyoa/no_wins
+
+#success
+cyoa-step4 story1
+cyoa-step4 story2
+cyoa-step4 ./cyoa/no_win
+cyoa-step4 ./cyoa/story-diamond-win 

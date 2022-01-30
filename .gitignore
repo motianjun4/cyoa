@@ -1,0 +1,6 @@
+*~
+cyoa-step*
+!*.h
+!*.cpp
+.vscode
+*.dSYM
