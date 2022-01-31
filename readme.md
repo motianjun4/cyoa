@@ -4,5 +4,5 @@ To run the test and get the coverage result, run:
 ```bash
 sh runcov.sh
 ```
-and the result [covresult.txt](./covresult.txt) will be generated 
-lcov visualized result: [index.html](./cov_result/index.html)
+and the result [covresult.txt](./covresult.txt) will be generated   
+lcov visualized result: [link](https://motianjun4.github.io/cyoa/)
