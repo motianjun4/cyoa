@@ -1,6 +1,10 @@
 *~
-cyoa-step*
+cyoa-step1
+cyoa-step2
+cyoa-step3
+cyoa-step4
 !*.h
 !*.cpp
 .vscode
 *.dSYM
+*.o
