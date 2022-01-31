@@ -5,7 +5,7 @@ gcov -b page.cpp path.cpp story.cpp cyoa-step1.cpp cyoa-step2.cpp cyoa-step3.cpp
 
 lcov -d . -c -o covinfo
 lcov --extract covinfo "$PWD/*" -o covinfo_filtered
-genhtml -o cov_result covinfo_filtered
+genhtml -o docs covinfo_filtered
 echo ""
 echo "---------------------------"
 echo "coverage result in covresult.txt"
