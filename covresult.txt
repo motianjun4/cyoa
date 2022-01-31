@@ -1,0 +1,120 @@
+File 'page.cpp'
+Lines executed:98.39% of 62
+Creating 'page.cpp.gcov'
+
+File '/usr/include/c++/9/iostream'
+No executable lines
+Removing 'iostream.gcov'
+
+File '/usr/include/c++/9/bits/stl_algobase.h'
+Lines executed:60.00% of 45
+Creating 'stl_algobase.h.gcov'
+
+File '/usr/include/c++/9/bits/cpp_type_traits.h'
+Lines executed:100.00% of 2
+Creating 'cpp_type_traits.h.gcov'
+
+File '/usr/include/c++/9/bits/stl_construct.h'
+Lines executed:100.00% of 16
+Creating 'stl_construct.h.gcov'
+
+File '/usr/include/c++/9/bits/stl_uninitialized.h'
+Lines executed:83.33% of 18
+Creating 'stl_uninitialized.h.gcov'
+
+File '/usr/include/c++/9/ext/new_allocator.h'
+Lines executed:93.33% of 15
+Creating 'new_allocator.h.gcov'
+
+File '/usr/include/c++/9/ext/alloc_traits.h'
+Lines executed:100.00% of 11
+Creating 'alloc_traits.h.gcov'
+
+File '/usr/include/c++/9/bits/stl_iterator_base_funcs.h'
+Lines executed:0.00% of 5
+Creating 'stl_iterator_base_funcs.h.gcov'
+
+File '/usr/include/c++/9/bits/stl_iterator_base_types.h'
+Lines executed:0.00% of 2
+Creating 'stl_iterator_base_types.h.gcov'
+
+File '/usr/include/c++/9/bits/stl_vector.h'
+Lines executed:98.72% of 78
+Creating 'stl_vector.h.gcov'
+
+File '/usr/include/c++/9/bits/move.h'
+Lines executed:100.00% of 2
+Creating 'move.h.gcov'
+
+File '/usr/include/c++/9/ext/type_traits.h'
+Lines executed:0.00% of 2
+Creating 'type_traits.h.gcov'
+
+File '/usr/include/c++/9/bits/allocator.h'
+Lines executed:100.00% of 5
+Creating 'allocator.h.gcov'
+
+File '/usr/include/c++/9/bits/basic_string.tcc'
+Lines executed:35.00% of 20
+Creating 'basic_string.tcc.gcov'
+
+File '/usr/include/c++/9/bits/stl_iterator.h'
+Lines executed:100.00% of 15
+Creating 'stl_iterator.h.gcov'
+
+File '/usr/include/c++/9/bits/basic_string.h'
+Lines executed:50.00% of 12
+Creating 'basic_string.h.gcov'
+
+File '/usr/include/c++/9/bits/vector.tcc'
+Lines executed:75.86% of 29
+Creating 'vector.tcc.gcov'
+
+File 'cyoa.h'
+Lines executed:100.00% of 2
+Creating 'cyoa.h.gcov'
+
+File '/usr/include/c++/9/new'
+Lines executed:66.67% of 3
+Creating 'new.gcov'
+
+File '/usr/include/c++/9/bits/char_traits.h'
+Lines executed:100.00% of 2
+Creating 'char_traits.h.gcov'
+
+File 'path.cpp'
+Lines executed:100.00% of 20
+Creating 'path.cpp.gcov'
+
+File 'story.cpp'
+Lines executed:95.80% of 119
+Creating 'story.cpp.gcov'
+
+File '/usr/include/c++/9/bits/stl_deque.h'
+Lines executed:81.51% of 146
+Creating 'stl_deque.h.gcov'
+
+File '/usr/include/c++/9/bits/deque.tcc'
+Lines executed:0.00% of 45
+Creating 'deque.tcc.gcov'
+
+File '/usr/include/c++/9/bits/stl_queue.h'
+Lines executed:100.00% of 11
+Creating 'stl_queue.h.gcov'
+
+File 'cyoa-step1.cpp'
+Lines executed:100.00% of 8
+Creating 'cyoa-step1.cpp.gcov'
+
+File 'cyoa-step2.cpp'
+Lines executed:100.00% of 8
+Creating 'cyoa-step2.cpp.gcov'
+
+File 'cyoa-step3.cpp'
+Lines executed:62.50% of 8
+Creating 'cyoa-step3.cpp.gcov'
+
+File 'cyoa-step4.cpp'
+Lines executed:100.00% of 8
+Creating 'cyoa-step4.cpp.gcov'
+
