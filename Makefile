@@ -1,8 +1,15 @@
+all: cyoa-step1 cyoa-step2 cyoa-step3 cyoa-step4
 cyoa-step4: cyoa-step4.cpp cyoa.h page.cpp path.cpp story.cpp
-	g++ -g -std=gnu++98 -Werror -Wall -fprofile-arcs -ftest-coverage -o cyoa-step4 cyoa-step4.cpp page.cpp path.cpp story.cpp
+	g++ -g -std=gnu++98 -Werror -Wall -fprofile-arcs -ftest-coverage -o cyoa-step4 cyoa-step4.cpp page.o story.o path.o
 cyoa-step3: cyoa-step3.cpp cyoa.h page.cpp story.cpp path.cpp
-	g++ -g -std=gnu++98 -Werror -Wall -o cyoa-step3 cyoa-step3.cpp page.cpp story.cpp path.cpp
+	g++ -g -std=gnu++98 -Werror -Wall -fprofile-arcs -ftest-coverage -o cyoa-step3 cyoa-step3.cpp page.o story.o path.o
 cyoa-step2: cyoa-step2.cpp cyoa.h page.cpp story.cpp path.cpp
-	g++ -g -std=gnu++98 -Werror -Wall -o cyoa-step2 cyoa-step2.cpp page.cpp story.cpp path.cpp
+	g++ -g -std=gnu++98 -Werror -Wall -fprofile-arcs -ftest-coverage -o cyoa-step2 cyoa-step2.cpp page.o story.o path.o
 cyoa-step1: cyoa-step1.cpp cyoa.h page.cpp
-	g++ -g -std=gnu++98 -Werror -Wall -o cyoa-step1 cyoa-step1.cpp page.cpp
+	g++ -g -std=gnu++98 -Werror -Wall -fprofile-arcs -ftest-coverage -o cyoa-step1 cyoa-step1.cpp page.o
+page.o: page.cpp
+	g++ -g -std=gnu++98 -Werror -Wall -fprofile-arcs -ftest-coverage -o page.o -c page.cpp
+story.o: story.cpp
+	g++ -g -std=gnu++98 -Werror -Wall -fprofile-arcs -ftest-coverage -o story.o -c story.cpp
+path.o: path.cpp
+	g++ -g -std=gnu++98 -Werror -Wall -fprofile-arcs -ftest-coverage -o path.o -c path.cpp

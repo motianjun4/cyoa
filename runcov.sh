@@ -1,0 +1,1 @@
+cat testcases.txt |grep cyoa | xargs -L 1 -I {} bash -c "./{}" 
